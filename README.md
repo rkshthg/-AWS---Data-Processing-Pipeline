@@ -8,6 +8,10 @@ This project implements a highly scalable and automated data processing pipeline
 
 The data used for demonstration is generated from [Mockaroo](https://www.mockaroo.com/) in JSON format and contains simulated sales data for a hardware store. This dataset includes various attributes such as product names, categories, prices, transaction dates, and customer details, providing a realistic representation of retail transactions within a hardware business. The mock data allows for extensive testing and validation of the data pipeline without relying on actual production data.
 
+### Data Schema
+
+[Data Schema file](/data/mock-data-schema.json)
+
 ## Architecture
 
 1. **Data Ingestion**
