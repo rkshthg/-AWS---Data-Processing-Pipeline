@@ -54,7 +54,6 @@ project_root/
       │-- .env           # Environment variables
 │-- data/                # Raw and processed data
    |-- source/
-      |-- datacraft-retail-mock-data-28012025.json
    |-- raw/
    |-- processed/
    |-- final/
@@ -67,14 +66,11 @@ project_root/
    |-- lambda_transform.py
    |-- load.py
 │-- scripts/             # Utility and helper scripts
-│-- tests/               # Unit and integration tests
-│-- logs/                # Logs for debugging and monitoring
 │-- docs/                # Documentation and API references
    |-- architecture.jpg
 |-- sql/                 # SQL scripts for DDLs and DMLs
    |-- stage-table-ddl.sql
    |-- final-table-ddl.sql
-│-- requirements.txt     # Python dependencies
 │-- README.md            # Project documentation
 ```
 
@@ -107,6 +103,7 @@ project_root/
 
 ## Future Enhancements
 
+- Automate the load function using orchestration tools as in architecture diagram.
 - Implement schema evolution and validation using AWS Glue.
 - Add monitoring and alerting with CloudWatch and AWS Lambda logs.
 - Optimize PySpark jobs for better performance and cost efficiency.
